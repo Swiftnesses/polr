@@ -9,7 +9,9 @@
 
         <!-- Output sign in/sign out buttons appropriately -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="{{ route('index') }}">{{env('APP_NAME')}}</a>
+            <!-- <a class="navbar-brand" href="{{ route('index') }}">{{env('APP_NAME')}}</a> -->
+            <a class="navbar-brand" href="http://usep.ro"><img src="https://drive.google.com/uc?id=0B7makVJr2sR6S1JmNHhablpmSTQ" alt="Profile">
+        </a>
         </div>
 
         <ul id="navbar" class="nav navbar-collapse collapse navbar-nav" id="nbc">

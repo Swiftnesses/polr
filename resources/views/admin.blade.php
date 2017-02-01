@@ -25,11 +25,12 @@
     <div class='col-md-10'>
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="home">
-                <h2>Welcome to your {{env('APP_NAME')}} dashboard!</h2>
-                <p>Use the links on the left hand side to navigate your {{env('APP_NAME')}} dashboard.</p>
+                <h3>Welcome to the {{env('APP_NAME')}} dashboard!</h3>
+                <p>Use the links on the left hand side to navigate the dashboard.</p>
             </div>
 
             <div role="tabpanel" class="tab-pane" id="links">
+            	<h3>Links</h3>
                 @include('snippets.link_table', [
                     'table_id' => 'user_links_table'
                 ])
