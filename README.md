@@ -2,9 +2,11 @@
 
 :aerial_tramway: A modern, minimalist, and lightweight URL shortener.
 
-[![GitHub license](https://img.shields.io/badge/license-GPLv2%2B-blue.svg)]() 
+[![GitHub license](https://img.shields.io/badge/license-GPLv2%2B-blue.svg)]()
+[![GitHub release](https://img.shields.io/github/release/cydrobolt/polr.svg)](https://github.com/cydrobolt/polr/releases)
 [![Builds status](https://travis-ci.org/cydrobolt/polr.svg)](https://travis-ci.org/cydrobolt/polr) 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://polr.readthedocs.org/en/latest/)
+
 
 Polr is an intrepid, self-hostable open-source link shortening web application with a robust API. It allows you to host your own URL shortener, to brand your URLs, and to gain control over your data. Polr is especially easy to use, and provides a modern, themable feel.
 
@@ -42,12 +44,12 @@ There are breaking changes between 2.x and 1.x; it is not yet possible to automa
 
 * Safari - [Polr.safariextension](https://github.com/cleverdevil/Polr.safariextension)
 
-####Versioning
+#### Versioning
 
 Polr uses [Semantic Versioning](http://semver.org/)
 
 
-####License
+#### License
 
 
     Copyright (C) 2013-2017 Chaoyi Zha

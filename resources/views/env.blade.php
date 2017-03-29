@@ -77,6 +77,12 @@ SETTING_PSEUDORANDOM_ENDING={{$ST_PSEUDOR_ENDING}}
 # Set to true to record advanced analytics
 SETTING_ADV_ANALYTICS={{$ST_ADV_ANALYTICS}}
 
+# Set to true to restrict registration to a specific email domain
+SETTING_RESTRICT_EMAIL_DOMAIN={{$ST_RESTRICT_EMAIL_DOMAIN}}
+
+# A comma-separated list of permitted email domains
+SETTING_ALLOWED_EMAIL_DOMAINS={{$ST_ALLOWED_EMAIL_DOMAINS}}
+
 # Set each to blank to disable mail
 @if($MAIL_ENABLED)
 MAIL_DRIVER=smtp
@@ -99,6 +105,7 @@ SESSION_DRIVER=file
 QUEUE_DRIVER=database
 
 _API_KEY_LENGTH=15
+_ANALYTICS_MAX_DAYS_DIFF=365
 _PSEUDO_RANDOM_KEY_LENGTH=5
 
 # FILESYSTEM_DRIVER=local
